@@ -5,8 +5,8 @@ int main()
   in=fopen("in.txt","r");
   out=fopen("out.txt","w");
   char s[5];
-  fscanf(in,"%c",&s);
-  fprintf(out,"%c",s);
+  fscanf(in,"%s",&s);
+  fprintf(out,"%s",s);
   /*char *s;
   fscanf(in,"%s",&s);
   printf("%s",s);*/
